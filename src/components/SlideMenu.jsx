@@ -10,7 +10,7 @@ const SlideMenu = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <div className="relative h-screen">
+    <div>
       {/* 오른쪽 슬라이드 메뉴 */}
       <div
         className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-500 ease-in-out z-30 ${

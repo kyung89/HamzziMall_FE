@@ -1,7 +1,9 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
+import Main from "./Main";
+import { Link } from "react-router-dom";
 
-export default function Header() {
+export default function HeaderMain() {
   return (
     <div>
       <div className="top_menu">
@@ -67,18 +69,18 @@ export default function Header() {
           />
         </div>
       </div>
-      <div className="category bg-slate-300 p-3 sticky">
+      <header className="category bg-slate-300 p-3 sticky top-0">
         <div className="max-w-6xl mx-auto">
           <ul className="flex text-sm justify-between">
             <li className="group">
               <div className="hover:text-gray-500 cursor-pointer">햄테리어</div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border w-32">
+                <ul className="shadow p-2 mt-3 border-slate-300 w-32 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
-                    세트상품
+                    세트상품(TestPage1)
                   </li>
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
-                    체험곡식
+                    체험곡식(TestPage2)
                   </li>
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     꾸미기베딩
@@ -98,7 +100,7 @@ export default function Header() {
             <li className="group">
               <div className="hover:text-gray-500 cursor-pointer">사료</div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border w-32">
+                <ul className="shadow p-2 mt-3 border-slate-300 w-32 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     골든 햄스터용
                   </li>
@@ -114,7 +116,7 @@ export default function Header() {
             <li className="group">
               <div className="hover:text-gray-500 cursor-pointer">간식</div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+                <ul className="shadow p-2 mt-3 border-slate-300 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     알곡/견과류
                   </li>
@@ -138,7 +140,7 @@ export default function Header() {
                 베딩/모래
               </div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+                <ul className="shadow p-2 mt-3 border-slate-300 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     나무/종이/기타 베딩
                   </li>
@@ -156,7 +158,7 @@ export default function Header() {
                 은신처/목욕화장실
               </div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto w">
-                <ul className="shadow p-2 mt-3 border w-32">
+                <ul className="shadow p-2 mt-3 border-slate-300 w-32 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     은신처
                   </li>
@@ -179,7 +181,7 @@ export default function Header() {
                 쳇바퀴/장난감
               </div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border w-32">
+                <ul className="shadow p-2 mt-3 border-slate-300 w-32 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     장난감
                   </li>
@@ -194,7 +196,7 @@ export default function Header() {
                 하우스/터널
               </div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+                <ul className="shadow p-2 mt-3 border-slate-300 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     리빙박스/개조
                   </li>
@@ -215,7 +217,7 @@ export default function Header() {
                 영양제/이유식
               </div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border w-32">
+                <ul className="shadow p-2 mt-3 border-slate-300 w-32 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     영양제
                   </li>
@@ -228,7 +230,7 @@ export default function Header() {
             <li className="group">
               <div className="hover:text-gray-500 cursor-pointer">기타</div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border w-32">
+                <ul className="shadow p-2 mt-3 border-slate-300w-32 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     포장/계량용품
                   </li>
@@ -247,7 +249,7 @@ export default function Header() {
             <li className="group">
               <div className="hover:text-gray-500 cursor-pointer">할인상품</div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border w-32">
+                <ul className="shadow p-2 mt-3 border-slate-300 w-32 bg-white">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     골든 햄스터용
                   </li>
@@ -262,7 +264,8 @@ export default function Header() {
             </li>
           </ul>
         </div>
-      </div>
+      </header>
+      <Main />
     </div>
   );
 }

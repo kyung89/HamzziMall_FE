@@ -1,19 +1,15 @@
 import "./App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import HeaderMain from "./components/HeaderMain";
 import SlideMenu from "./components/SlideMenu";
 import ScrollToButton from "./components/ScrollToButton";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
+    <div className="relative h-screen">
+      <HeaderMain />
       <SlideMenu />
       <ScrollToButton />
-    </>
+    </div>
   );
 }
 
