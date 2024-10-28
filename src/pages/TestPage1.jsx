@@ -1,11 +1,12 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Header from "../components/HeaderMain";
+import Header from "../components/Header";
 
 export default function TestPage1() {
   return (
     <div>
-      <div className="min-h-svh bg-slate-400">testpage1</div>
+      <Header />
+      <div className="min-h-svh ">testpage1</div>
       <Footer />
     </div>
   );
