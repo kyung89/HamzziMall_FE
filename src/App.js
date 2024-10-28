@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import SlideMenu from "./components/SlideMenu";
+import ScrollToButton from "./components/ScrollToButton";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Main />
       <Footer />
       <SlideMenu />
+      <ScrollToButton />
     </>
   );
 }
