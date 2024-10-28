@@ -34,20 +34,18 @@ export default function Header() {
                 </li>
                 <li className="px-1 cursor-pointer group">
                   커뮤니티
-                  <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                    <div className="shadow text-xs w-30 border mt-2.5 border-t-0 -ml-8">
-                      <div className="p-2 hover:bg-slate-100 cursor-pointer text-center">
-                        공지사항
-                      </div>
-                      <div className="p-2 hover:bg-slate-100 cursor-pointer text-center">
-                        Q&A
-                      </div>
-                      <div className="p-2 hover:bg-slate-100 cursor-pointer text-center">
-                        상품사용후기
-                      </div>
-                      <div className="p-2 hover:bg-slate-100 cursor-pointer text-center">
-                        구매후기 적립금 신청
-                      </div>
+                  <div className="shadow text-xs w-30 border mt-2.5 border-t-0 -ml-8 group-hover:block dropdown-menu absolute overflow-hidden max-h-0 group-hover:max-h-40 transition-[max-height] duration-500 ease-in-out">
+                    <div className="p-2 hover:bg-slate-100 cursor-pointer text-center">
+                      공지사항
+                    </div>
+                    <div className="p-2 hover:bg-slate-100 cursor-pointer text-center">
+                      Q&A
+                    </div>
+                    <div className="p-2 hover:bg-slate-100 cursor-pointer text-center">
+                      상품사용후기
+                    </div>
+                    <div className="p-2 hover:bg-slate-100 cursor-pointer text-center">
+                      구매후기 적립금 신청
                     </div>
                   </div>
                 </li>
