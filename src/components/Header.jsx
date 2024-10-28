@@ -75,7 +75,7 @@ export default function Header() {
             <li className="group">
               <div className="hover:text-gray-500 cursor-pointer">햄테리어</div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+                <ul className="shadow p-2 mt-3 border w-32">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     세트상품
                   </li>
@@ -100,7 +100,7 @@ export default function Header() {
             <li className="group">
               <div className="hover:text-gray-500 cursor-pointer">사료</div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+                <ul className="shadow p-2 mt-3 border w-32">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     골든 햄스터용
                   </li>
@@ -157,8 +157,8 @@ export default function Header() {
               <div className="hover:text-gray-500 cursor-pointer">
                 은신처/목욕화장실
               </div>
-              <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+              <div className="group-hover:block dropdown-menu absolute hidden h-auto w">
+                <ul className="shadow p-2 mt-3 border w-32">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     은신처
                   </li>
@@ -181,7 +181,7 @@ export default function Header() {
                 쳇바퀴/장난감
               </div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+                <ul className="shadow p-2 mt-3 border w-32">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     장난감
                   </li>
@@ -217,7 +217,7 @@ export default function Header() {
                 영양제/이유식
               </div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+                <ul className="shadow p-2 mt-3 border w-32">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     영양제
                   </li>
@@ -230,7 +230,7 @@ export default function Header() {
             <li className="group">
               <div className="hover:text-gray-500 cursor-pointer">기타</div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+                <ul className="shadow p-2 mt-3 border w-32">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     포장/계량용품
                   </li>
@@ -249,7 +249,7 @@ export default function Header() {
             <li className="group">
               <div className="hover:text-gray-500 cursor-pointer">할인상품</div>
               <div className="group-hover:block dropdown-menu absolute hidden h-auto">
-                <ul className="shadow p-2 mt-3 border">
+                <ul className="shadow p-2 mt-3 border w-32">
                   <li className="p-1 hover:text-gray-500 cursor-pointer">
                     골든 햄스터용
                   </li>
